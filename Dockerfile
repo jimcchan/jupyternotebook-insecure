@@ -1,7 +1,7 @@
 FROM debian:testing-slim
 
 LABEL version="1.0"
-LABEL maintainer="Juan Vázquez Moreno <vmjuan90@gmail.com>"
+LABEL maintainer="ITOps <itops0@gmail.com>"
 LABEL description="Jupyter notebook"
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
