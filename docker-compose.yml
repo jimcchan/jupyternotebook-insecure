@@ -1,7 +1,7 @@
 version: "3"
 services:
   notebook:
-    image: johnnyvm90/jupyter:latest
+    image: itops/jupyter:latest
     build:
       context: '.'
     ports:
