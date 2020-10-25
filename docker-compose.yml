@@ -1,0 +1,11 @@
+version: "3"
+services:
+  notebook:
+    image: johnnyvm90/jupyter:latest
+    build:
+      context: '.'
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./config.py:/etc/jupyter/config.py:ro
+      - ./notebook:/usr/share/notebook
